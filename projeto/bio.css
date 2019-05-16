@@ -1,0 +1,123 @@
+body{
+    font-family: "Crismon Text", serif;
+    font-size: 20px;
+    background-color: #F2FFFC;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.container{
+    width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+main h1 {
+    font-size: 60px;
+    color: #fff;
+    background-color: #851944;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    border-bottom: 10px solid black;
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+cite {
+    text-align: left;
+}
+
+.subtitulo-texto {
+    font-size: 38px;
+    font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
+    margin: 5px 0px;
+}
+
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+
+blockquote {
+	background-color: #D9E5E3;
+    padding: 16px;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+    margin: 10px 30px;
+	box-sizing: border-box;
+}
+
+nav h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: inherit;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.icones-sociais li{
+    display: inline-block;
+
+}
+
+aside, .minhafoto{
+    float: right;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    box-sizing: border-box;
+}
+aside{
+    clear: right;
+    width: 15%;
+    position: relative;
+    top: 310px;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    box-sizing: border-box;
+}
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png)
+}
+.linkedin {
+    background-image: url(linkedin.png);
+}
+
+footer{
+    clear: both;
+}
+
+.minhafoto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
